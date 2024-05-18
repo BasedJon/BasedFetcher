@@ -5,7 +5,7 @@
 -- \u003C/rules\u003E\u003Cbr\u003E\u003Crules\u003EThis Ability's bonus damage is reduced by @TowerMod*100@% against structures.\u003C/rules\u003E"
 -- End of tooltip.
 
--- Let's use @EmpoweredQdamageTT@ as an example, it can be referenced to this calculation in the rengar.bin
+-- Anything that is enclosed in @@ refrences to the .bin file of the champion. Let's use @EmpoweredQdamageTT@ as an example, it can be referenced to this calculation in the rengar.bin
 
 mSpellCalculations: map[hash,pointer] = {
     "EmpoweredQdamageTT" = GameCalculation {
